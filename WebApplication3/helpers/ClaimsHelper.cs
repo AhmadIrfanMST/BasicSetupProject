@@ -10,10 +10,6 @@ namespace WebApplication3.helpers
 {
     public static class ClaimsHelper
     {
-        public static async getClientConnectionString(Clie)
-        {
-        
-        }
         public static async Task<bool> GetPermissionsByRoleAsync(this RoleManager<IdentityRole> _roleManager,UserManager<IdentityUser> _userManager , string permissionToCheck,string userString)
         {
             if (userString != null)
